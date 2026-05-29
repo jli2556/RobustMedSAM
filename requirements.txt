@@ -1,0 +1,13 @@
+# Core
+torch>=2.0
+torchvision
+numpy
+
+# Image I/O and degradation synthesis
+opencv-python
+pillow
+albumentations
+
+# Utilities / visualization
+matplotlib
+tqdm

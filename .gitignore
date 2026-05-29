@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+.conda/
+
+# ---- Model weights & checkpoints ----
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+
+# ---- Data (download / generate locally) ----
+data/all_data/
+all_data/
+*.zip
+
+# ---- Outputs ----
+demo_result/
+results/
+logs/
+*.log
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+.nfs*
+*.swp
