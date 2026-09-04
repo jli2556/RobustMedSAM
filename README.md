@@ -5,7 +5,7 @@
 Jieru Li, Matthew Chen, Micky C. Nnamdi, J. Ben Tamo, Benoit L. Marteau, May D. Wang
 *Georgia Institute of Technology*
 
-> 🎉 **Accepted at the CVPR 2026 AI4Clinic Workshop (Oral).**
+> 🎉 **Accepted at the CVPR 2026 CV4Clinic Workshop (Oral).**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2604.09814-b31b1b.svg)](https://arxiv.org/abs/2604.09814v1)
 
