@@ -8,6 +8,8 @@ Jieru Li, Matthew Chen, Micky C. Nnamdi, J. Ben Tamo, Benoit L. Marteau, May D. 
 > 🎉 **Accepted at the CVPR 2026 CV4Clinic Workshop (Oral).**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2604.09814-b31b1b.svg)](https://arxiv.org/abs/2604.09814v1)
+[![Paper](https://img.shields.io/badge/CVF-Paper-blue.svg)](https://openaccess.thecvf.com/content/CVPR2026W/CV4Clinic2026/html/Li_RobustMedSAM_Degradation-Resilient_Medical_Image_Segmentation_via_Robust_Foundation_Model_Adaptation_CVPRW_2026_paper.html)
+[![Model](https://img.shields.io/badge/Model-Weights-green.svg)](https://github.com/jli2556/RobustMedSAM/releases/download/v1.0.0/robustmedsam_best.pth)
 
 > Medical image segmentation models built on the Segment Anything Model (SAM)
 > perform well on clean benchmarks but degrade under realistic image
@@ -72,8 +74,12 @@ pip install -r requirements.txt
 
 ### Pretrained checkpoints (download separately)
 
-| Component | Source |
-|-----------|--------|
+The pretrained RobustMedSAM model used for inference is available in the
+[v1.0.0 release](https://github.com/jli2556/RobustMedSAM/releases/tag/v1.0.0).
+
+| Model | Download |
+|-------|----------|
+| RobustMedSAM ViT-B (`robustmedsam_best.pth`) | [Download weights](https://github.com/jli2556/RobustMedSAM/releases/download/v1.0.0/robustmedsam_best.pth) |
 | MedSAM ViT-B (`medsam_vit_b.pth`) | https://github.com/bowang-lab/MedSAM |
 | RobustSAM ViT-B (`robustsam_checkpoint_b.pth`) | https://huggingface.co/robustsam/robustsam |
 
